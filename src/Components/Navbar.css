@@ -1,72 +1,74 @@
-.navbar{
-    background-color: transparent;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100vw;
-    position: fixed; 
+.navbar {
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 100;
 }
-.main-logo img{
-    width: 24px;
-    height: 16px;
-    /* margin-right: 60px; */
+.main-logo img {
+  width: 24px;
+  height: 16px;
+  /* margin-right: 60px; */
 }
-.main-logo{
-    font-size: 20px;
-    font-weight: 400;
-    color: #FFFFFF;
-    display: flex;
-    gap: 6px;
+.main-logo {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  display: flex;
+  gap: 6px;
 }
-.left-nav-items{
-    display: flex;
-    align-items: center;
-    padding-left: 80px;
+.left-nav-items {
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
 }
-.nav-list-items ul{
-    display: flex;
-    gap: 41px;
+.nav-list-items ul {
+  display: flex;
+  gap: 41px;
 }
-.nav-list-items ul li{
-    font-size: 16px;
-    font-weight: 400;
-    color: #FFFFFF99;
-    list-style: none;
+.nav-list-items ul li {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff99;
+  list-style: none;
 }
-.home{
-    color: white;
+.home {
+  color: white;
 }
-.right-nav-items{
-    display: flex;
-    gap: 10px;
-    padding-right: 80px;
+.right-nav-items {
+  display: flex;
+  gap: 10px;
+  padding-right: 80px;
 }
-.signin-btn{
-    width: 77px;
-    height: 34px;
-    border: 0.6px solid #FFFFFF1A;
-    background-color: transparent;
-    font-size: 16px;
-    font-weight: 400;
-    color: #FFFFFF;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.signin-btn {
+  width: 77px;
+  height: 34px;
+  border: 0.6px solid #ffffff1a;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.signup-btn{
-    width: 85px;
-    height: 34px;
-    border: 0.6px solid #05111703;
-    border-radius: 8px;
-    background-color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 400;
-    color: #051117;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.signup-btn {
+  width: 85px;
+  height: 34px;
+  border: 0.6px solid #05111703;
+  border-radius: 8px;
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  color: #051117;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -159,7 +159,7 @@
   backdrop-filter: blur(60px);
   box-shadow: 0px 0px 100px 0px #ffffff1a inset, 1px 1px 1px 0px #ffffff1a inset;
 }
-.bg-video {
+.bg-video-pro-card {
   width: 89%;
   height: 61%;
   object-fit: cover;

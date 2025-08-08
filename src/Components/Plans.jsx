@@ -56,7 +56,7 @@ const Plans = () => {
           </div>
         </div>
         <div className="pro-plan-card ">
-          <video autoPlay loop muted playsInline className="bg-video">
+          <video autoPlay loop muted playsInline className="bg-video-pro-card">
             <source src={bgVideo} type="video/mp4" />
           </video>
           <h3 className="plan-title-pro">Pro</h3>

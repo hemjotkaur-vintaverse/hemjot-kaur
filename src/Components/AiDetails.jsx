@@ -40,7 +40,7 @@ const AiDetails = () => {
         </div>
       </div>
       <div className="lower-details-content">
-        <div className="left-ai">
+        <div className="left-ai-details">
           <div className="ai-img">
             <img src={aiimg} alt="" />
           </div>
@@ -66,7 +66,7 @@ const AiDetails = () => {
             </div>
           </div>
         </div>
-        <div className="left-ai">
+        <div className="left-ai-details">
           <div className="graphimg">
             <img src={graphimg} alt="" />
           </div>
