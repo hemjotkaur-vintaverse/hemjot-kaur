@@ -73,7 +73,7 @@ const AiDetails = () => {
           <div className="img-text">
             <div className="graph-title">+40%</div>
             <div className="graph-text">
-                    Business grows through <br />  intelligent AI chatbots.
+                    Business grows through br  intelligent AI chatbots.
             </div>
           </div>
         </div>

@@ -5,18 +5,17 @@
   padding: 138px 80px 165px 80px;
   position: relative;
 }
-/* .light img{
-     width: 800px;
-  height: 800px;
+.light img{
+     width: 395px;
+  height: 395px;
   background: #7AE2CF;
-  position: absolute;
-  top: 150px; 
-  left: 0px; 
-  border-radius: 50%;
+  /* top: 190px;  */
+  /* left: -118px;  */
+  /* border-radius: 50%; */
   filter: blur(220px); 
-  opacity: 0.2;
+  opacity: 60%;
 
-} */
+}
 .function-cards {
   display: flex;
   gap: 18.25px;

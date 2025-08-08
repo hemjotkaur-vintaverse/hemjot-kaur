@@ -1,0 +1,126 @@
+.footer {
+  padding: 60px 80px 24px 80px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(5, 17, 23, 0.8);
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  box-shadow: 0px 1px 1px 0px #ffffff1a inset;
+}
+.upper-footer-details {
+  display: flex;
+  gap: 198.33px;
+  /* justify-content: space-between; */
+}
+.lower-main-logo-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #ffffff99;
+  padding-top: 34px;
+}
+.first-footer-list {
+  display: flex;
+}
+.products-list-footer {
+  display: flex;
+  flex-direction: column;
+}
+.main-product-heading {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #ffffff;
+  margin-top: 6px;
+  margin-bottom: 30px;
+}
+
+.products-list-footer ul {
+  color: #ffffff99;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.main-heading-newsletter {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.lower-text-newsletter {
+  padding: 30px 0px 30px 0px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #ffffff99;
+}
+.send-email-container {
+  position: relative;
+}
+.send-email-container input {
+  width: 280px;
+  height: 34px;
+  /* padding: 12.5px 168px 12.5px 14px; */
+  border-radius: 8px;
+  border: 0.6px solid #ffffff1a;
+  background: #051117cc;
+
+  backdrop-filter: blur(30px);
+  box-shadow: 0px 1px 1px 0px #ffffff1a inset;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #ffffff99;
+  text-indent: 14px;
+}
+
+.send-btn {
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  border: 0.6px solid #ffffff1a;
+  border-radius: 6px;
+  position: absolute;
+  right: 3px;
+  top: 4.5px;
+}
+.send-btn img {
+  width: 12px;
+  height: 10px;
+}
+.lower-footer-details {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ffffff1a;
+  padding-top: 22.5px;
+  padding-bottom: 22.5px;
+}
+.project-rights-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  color:#FFFFFF99;
+}
+.terms-text, .policy-text{
+      font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  color:#FFFFFF99;
+}
+.policy-terms-container{
+    display: flex;
+}
+.divider{
+    height: 16px;
+    border: 1px solid #FFFFFF33;
+    width: 0px;
+    margin-left: 24px;
+    margin-right: 24px;
+}

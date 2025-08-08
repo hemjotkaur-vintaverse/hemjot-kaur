@@ -9,7 +9,7 @@ import reportimg from "../assets/Reporting & Analytics.png";
 const FunctionList = () => {
   return (
     <div className="function-list-section">
-        {/* <div className="light"></div> */}
+        {/* <div className="light"><img src={light} alt="" /></div> */}
 
       <div className="function-main-title">Featured Features</div>
       <div className="function-main-heading">What can be done?</div>
