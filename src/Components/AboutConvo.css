@@ -1,0 +1,77 @@
+.about__convo__section {
+  padding: 162px 294px 163px 295px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.about__upper__container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.faq__btn {
+  padding: 10px 14px 20px 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  background: linear-gradient(
+    180deg,
+    rgba(5, 17, 23, 0.15) 12.25%,
+    rgba(255, 255, 255, 0.15) 100%
+  );
+  box-shadow: 0px 0px 10px 0px #ffffff1a inset, 1px 1px 1px 0px #ffffff1a inset;
+  border: 0.6px solid rgba(5, 17, 23, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about__text {
+  font-size: 64px;
+  font-weight: 400;
+  background: radial-gradient(
+    50% 120.52% at 50% 5.22%,
+    #ffffff 48.91%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.about__lower__container {
+  border-radius: 20px;
+  border: 0.6px solid #ffffff1a;
+  box-shadow: 1px 1px 1px 0px #ffffff1a inset;
+}
+.query__item {
+  padding: 12px 12px 12px 24px;
+  position: relative;
+}
+.query__text {
+  padding-top: 9.5px;
+  padding-bottom: 9.5px;
+  color: white;
+}
+.query_img_box img {
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+  border: 0.6px solid #ffffff1a;
+}
+.query_img_box {
+  position: absolute;
+  right: 12px;
+  top: 16px;
+}
+.query__item1 {
+  padding: 12px 12px 12px 24px;
+  position: relative;
+  border: 1px solid #ffffff1a;
+}
+.query__item2 {
+  padding: 12px 12px 12px 24px;
+  position: relative;
+  border-bottom: none;
+}

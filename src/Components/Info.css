@@ -1,0 +1,38 @@
+.info-section {
+  padding: 136px 80px 0px 80px;
+}
+.main-text-info {
+  /* padding: 136px 80px 0px 80px; */
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+  justify-content: space-between;
+}
+.info-img img {
+  width: 1441px;
+  height: 255px;
+}
+.info-title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #7ae2cf;
+  padding-bottom: 123px;
+  padding-right: 43px;
+}
+.info-text {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 64px;
+  background: radial-gradient(
+    50% 120.52% at 50% 5.22%,
+    #ffffff 48.91%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.info-text span {
+  color: rgb(96, 94, 94);
+}
