@@ -10,7 +10,7 @@
   object-fit: cover;
   z-index: -1; */
   width: 89%;
-  height: 61%;
+  height: 50vh;
   object-fit: cover;
   position: absolute;
   top: -137px;
@@ -19,6 +19,7 @@
 }
 .bg-video1 {
   width: 99vw;
+  /* height: 50vh; */
 }
 .main__text {
   position: absolute;

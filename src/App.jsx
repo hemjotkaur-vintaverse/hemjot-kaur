@@ -4,6 +4,8 @@ import Home from "./Components/Home";
 import Convo from "./Components/Convo";
 import { Routes, Route } from 'react-router-dom'
 import Integration from "./Components/Integration";
+import DocsHero from "./Components/DocsHero";
+import Docs from "./Components/Docs";
 
 function App() {
   return(
@@ -12,6 +14,7 @@ function App() {
         <Route path="/home" element={<Home/>} />   
         <Route path="/convo" element={<Convo/>} />   
         <Route path="/integration" element={<Integration/>} />   
+        <Route path="/docs" element={<Docs/>} />   
       </Routes>
     </>
   )
